@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.songContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    img{
+        width: 18%;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+.songNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .navbar-p{
+    margin-right: 5rem;
+    font-size: 21px;
+  }
+  .btn{
+     font-size: 12px;
+     padding: 6px;
+
+  }
